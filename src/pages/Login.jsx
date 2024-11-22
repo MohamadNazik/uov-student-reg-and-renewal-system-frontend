@@ -1,7 +1,11 @@
-import React from "react";
+import PrimaryInputField from "../components/PrimaryInputField";
+
 
 function Login() {
-  return <div>Login</div>;
+  return <div >
+      Login
+      <PrimaryInputField/>
+  </div>;
 }
 
 export default Login;
