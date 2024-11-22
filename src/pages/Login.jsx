@@ -6,8 +6,8 @@ import PrimaryInputField from "../components/PrimaryInputField";
 function Login() {
   return (
     <div>
-      <PrimaryInputField />
       <PrimaryButton hasIcon={true} text="Login" iconSrc={downloadIcon} />
+      <PrimaryInputField />
     </div>
   );
 }
