@@ -5,7 +5,7 @@ import downloadIcon from "../assets/icons/download_icon.png";
 function Login() {
   return (
     <div>
-      <PrimaryButton hasIcon={true} text="Login" iconSrc={downloadIcon} />
+      <PrimaryButton text="Login" iconSrc={downloadIcon} />
     </div>
   );
 }
