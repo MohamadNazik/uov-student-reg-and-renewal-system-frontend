@@ -38,7 +38,7 @@ function StudentIDCard() {
           <div className="flex flex-col justify-between">
             <div className="flex gap-2">
               <div className="flex gap-[57px] sm:gap-[84px]">
-                <h3 className="text-[9px] sm:text-[14px] font-normal">Name</h3>
+                <h3 className="text-[9px] sm:text-[14px] font-medium">Name</h3>
                 <h3 className="text-[9px] sm:text-[14px] font-medium">:</h3>
               </div>
               <h3 className="text-[9px] sm:text-[14px] font-medium">
@@ -47,7 +47,7 @@ function StudentIDCard() {
             </div>
             <div className="flex  gap-2">
               <div className="flex gap-[23px] sm:gap-[32px]">
-                <h3 className="text-[9px] sm:text-[14px] font-normal">
+                <h3 className="text-[9px] sm:text-[14px] font-medium">
                   Enrollment No
                 </h3>
                 <h3 className="text-[9px] sm:text-[14px] font-medium">:</h3>
@@ -58,7 +58,7 @@ function StudentIDCard() {
             </div>
             <div className="flex  gap-2">
               <div className="flex gap-[47px] sm:gap-[70px]">
-                <h3 className="text-[9px] sm:text-[14px] font-normal">
+                <h3 className="text-[9px] sm:text-[14px] font-medium">
                   N.I.C No
                 </h3>
                 <h3 className="text-[9px] sm:text-[14px] font-medium">:</h3>
@@ -69,7 +69,7 @@ function StudentIDCard() {
             </div>
             <div className="flex  gap-2">
               <div className="flex gap-[5px]">
-                <h3 className="text-[9px] sm:text-[14px] font-normal">
+                <h3 className="text-[9px] sm:text-[14px] font-medium">
                   Date of Enrollment
                 </h3>
                 <h3 className="text-[9px] sm:text-[14px] font-medium">:</h3>
@@ -99,7 +99,7 @@ function StudentIDCard() {
           <div className="flex flex-col px-6 gap-2 justify-between">
             <div className="flex gap-2">
               <div className="flex gap-[25px]">
-                <h3 className="text-[9px] sm:text-[14px] font-normal">
+                <h3 className="text-[9px] sm:text-[14px] font-medium">
                   Address
                 </h3>
                 <h3 className="text-[9px] sm:text-[14px] font-medium">:</h3>
@@ -110,7 +110,7 @@ function StudentIDCard() {
             </div>
             <div className="flex  gap-2">
               <div className="flex gap-[5px]">
-                <h3 className="text-[9px] sm:text-[14px] font-normal">
+                <h3 className="text-[9px] sm:text-[14px] font-medium">
                   Date of Issue
                 </h3>
                 <h3 className="text-[9px] sm:text-[14px] font-medium">:</h3>
