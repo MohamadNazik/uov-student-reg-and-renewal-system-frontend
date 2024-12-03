@@ -90,7 +90,6 @@ export default function RecordBook() {
             </div>
         </div>
 
-        </div>
 
        </>
     );
