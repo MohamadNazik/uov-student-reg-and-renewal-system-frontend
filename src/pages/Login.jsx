@@ -1,10 +1,12 @@
 import React from "react";
 import PrimaryButton from "../components/PrimaryButton";
 import { Link } from "react-router-dom";
+import Banner from "../components/Banner";
 
 function Login() {
   return (
     <div className="h-screen flex flex-col gap-3 sm:gap-5 justify-center items-center">
+      <Banner />
       <div className="bg-white p-8 sm:p-8 rounded-3xl flex flex-col items-center gap-5 sm:gap-8 shadow-2xl">
         <h2 className="text-sm sm:text-lg font-bold tracking-wide uppercase">
           Student Login
