@@ -8,7 +8,7 @@ import dr_signature from "../assets/signature2.png";
 
 function StudentIDCard() {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-5 xl:flex-row xl:gap-14">
       {/* Front view */}
       <div className="w-[300px] sm:w-[500px] bg-white h-[175px] sm:h-[280px] rounded-xl overflow-hidden relative">
         <div className="w-[300px] sm:w-[500px] bg-[#F2BA1E] h-[70px] sm:h-[120px] rounded-tr-xl rounded-tl-xl flex justify-between gap-4 px-6 sm:px-9 items-center">
@@ -98,7 +98,7 @@ function StudentIDCard() {
         <div className="flex flex-col justify-between">
           <div className="flex flex-col px-6 gap-2 justify-between">
             <div className="flex gap-2">
-              <div className="flex gap-[25px]">
+              <div className="flex gap-[37px]">
                 <h3 className="text-[9px] sm:text-[14px] font-medium">
                   Address
                 </h3>
