@@ -86,18 +86,18 @@ function RecordBookComponent() {
             </h4>
             <h4>
               Name Donated By Initials
-              <span class="inline ml-1">:</span>
-              <span class="font-bold ml-1 sm:ml-2">John Doe</span>
+              <span class="inline ml-7">:</span>
+              <span class="font-bold ml-3 sm:ml-2">John Doe</span>
             </h4>
             <h4>
               National Identity Card No
-              <span class="inline ml-1">:</span>
-              <span class="font-bold ml-1 sm:ml-2">123456789012</span>
+              <span class="inline ml-11">:</span>
+              <span class="font-bold ml-2 sm:ml-2">123456789012</span>
             </h4>
             <h4>
               Date of Birth
               <span class="inline ml-1 sm:ml-[75px]">:</span>
-              <span class="font-bold  ml-1 sm:ml-2">01.01.2001</span>
+              <span class="font-bold  ml-3 sm:ml-2">01.01.2001</span>
             </h4>
           </div>
 
