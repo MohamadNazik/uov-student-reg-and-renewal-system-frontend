@@ -109,7 +109,7 @@ function RecordBookComponent() {
             />
           </div>
 
-          <div class="flex items-center text-left text-[9px] sm:text-[12px] mr-5 mt-2 sm:mr-[70px] sm:mt-10">
+          <div class="flex items-center text-left text-[9px] sm:text-[12px] ml-[8px] mt-2 sm:mr-[70px] sm:mt-10">
             Signature of the student<span class="ml-1 sm:ml-[15px]">:</span>
             <img src={holder_signature} alt="signature" class="w-[25px] sm:w-[50px] h-auto ml-2" />
           </div>
