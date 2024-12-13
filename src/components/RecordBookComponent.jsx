@@ -5,223 +5,119 @@ import uni_logo from "../assets/uov_logo.png";
 
 function RecordBookComponent() {
   return (
-    <>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-around",
-          fontFamily: "inter, sans-serif",
-          flexWrap: "wrap",
-          padding: "20px",
-        }}
-      >
-        {/* front Side */}
-        <div
-          style={{
-            width: "90%",
-            maxWidth: "500px",
-            height: "650px",
-            border: "2px solid #2320E8",
-            backgroundColor: "#E13923",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <div
+    <div className="flex flex-col gap-5 xl:flex-row xl:gap-14">
+      {/* Front view */}
+      <div className="w-[250px] sm:w-[390px] bg-[#E13923] h-[350px] sm:h-[500px] flex justify-center items-center overflow-hidden relative">
+        <div className="w-[200px] sm:w-[300px] bg-[#E13923] h-[300px] sm:h-[450px] border-2  border-customBlue flex flex-col justify-start items-center overflow-hidden relative">
+          <img src={uni_logo} alt="University Logo" className="w-[50px] sm:w-[120px] h-auto mt-4 sm:mt-5" />
+          <h3 className="text-customBlue text-[12px] sm:text-[20px] font-inter font-bold mt-6 sm:mt-8 leading-tight "
             style={{
-              width: "90%",
-              maxWidth: "400px",
-              height: "550px",
-              border: "2px solid #2320E8",
-              backgroundColor: "#E13923",
-              display: "flex",
-              flexDirection: "column",
-            }}
-          >
-            <img
-              src={uni_logo}
-              alt="UOV LOGO"
-              style={{
-                width: "123px",
-                height: "122px",
-                display: "block",
-                margin: "auto",
-              }}
-            />
+              textShadow: `
+               1px 1px 0 white, 
+                -1px -1px 0 white, 
+                -1px 1px 0 white, 
+                1px -1px 0 white,
+                1px 0 0 white, 
+                0 1px 0 white, 
+                -1px 0 0 white, 
+                0 -1px 0 white
+                
+              `,
+            }}>University of Vavuniya</h3>
+          <h3 className="text-customBlue text-[12px] sm:text-[20px]  font-inter font-bold leading-tight" style={{
+            textShadow: `
+                1px 1px 0 white, 
+                -1px -1px 0 white, 
+                -1px 1px 0 white, 
+                1px -1px 0 white,
+                1px 0 0 white, 
+                0 1px 0 white, 
+                -1px 0 0 white, 
+                0 -1px 0 white
+                
+              `,
+          }}>Sri Lanka</h3>
+          <h3 className="text-customBlue text-[16px] sm:text-[28px] text-center  font-inter font-bold uppercase mt-8 sm:mt-8 leading-tight" style={{
+            textShadow: `
+                1px 1px 0 white, 
+                -1px -1px 0 white, 
+                -1px 1px 0 white, 
+                1px -1px 0 white,
+                1px 0 0 white, 
+                0 1px 0 white, 
+                -1px 0 0 white, 
+                0 -1px 0 white
+              `,
+          }}>Student's Record Book</h3>
+          <h3 className="text-customBlue text-[8px] sm:text-[18px] text-center  font-inter font-bold uppercase mt-20 sm:mt-[80px] sm:pt-2 leading-tight " style={{
+            textShadow: `
+                1px 1px 0 white, 
+                -1px -1px 0 white, 
+                -1px 1px 0 white, 
+                1px -1px 0 white,
+                1px 0 0 white, 
+                0 1px 0 white, 
+                -1px 0 0 white, 
+                0 -1px 0 white
+              `,
+          }}>Facalty Of Applied Science</h3>
+        </div>
+      </div>
 
-            <h3
-              style={{
-                textAlign: "center",
-                color: "#2328E8",
-                marginTop: "31px",
-                marginBottom: "10px",
-                fontWeight: "700",
-                fontSize: "28px",
-                fontLineHeight: "33.89px",
-                textShadow: `-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white`,
-              }}
-            >
-              University Of Vavuniya
-              <br />
-              Sri Lanka
-            </h3>
-            <h2
-              style={{
-                textAlign: "center",
-                color: "#2320E8",
-                fontSize: "40px",
-                fontweight: "700",
-                fontLineHeight: "33.89px",
-                marginTop: "auto",
-                textShadow: `-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white`,
-              }}
-            >
-              STUDENT'S RECORD BOOK
-            </h2>
-            <p
-              style={{
-                textAlign: "center",
-                color: "#2320E8",
-                fontSize: "16px",
-                fontweight: "700",
-                fontLineHeight: "19.36px",
-                marginTop: "auto",
-                textShadow: `-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white`,
-              }}
-            >
-              FACULTY OF APPLIED SCIENCE
+
+      {/* Back view */}
+      <div className="w-[250px] sm:w-[390px]  bg-white h-[350px] sm:h-[500px] flex justify-center items-center overflow-hidden relative">
+        <div className="w-[200px] sm:w-[300px] bg-white h-[300px] sm:h-[450px] border-2  border-black   flex flex-col justify-start items-center overflow-hidden relative">
+          <div class="w-[85px] h-[20px] sm:w-[120px] sm:h-[40px] sm:text-[12px] border  border-black text-[10px] ml-auto mr-[10px] mt-2">
+            <p class="text-center mt-[2px] font-bold">
+              Registration No:
             </p>
           </div>
-        </div>
-        {/* second page of record book */}
-        <div
-          style={{
-            width: "90%",
-            maxWidth: "500px",
-            height: "650px",
-            border: "2px solid #000",
-            backgroundColor: "#ffffff",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <div
-            style={{
-              width: "90%",
-              maxWidth: "400px",
-              height: "550px",
-              border: "2px solid #000",
-              backgroundColor: "#ffffff",
-              display: "flex",
-              flexDirection: "column",
-            }}
-          >
-            <div
-              style={{
-                width: "140px",
-                height: "28px",
-                border: "1px solid #000",
-                fontSize: "15px",
-                marginLeft: "auto",
-                marginRight: "20px",
-                marginTop: "auto",
-              }}
-            >
-              <p style={{ textAlign: "center", marginTop: "5px" }}>
-                <strong>Registration No:</strong>
-              </p>
-            </div>
-            <div
-              style={{
-                width: "140px",
-                height: "28px",
-                border: "1px solid #000",
-                fontSize: "15px",
-                marginLeft: "auto",
-                marginRight: "20px",
-              }}
-            >
-              <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "4px",
-                  fontStyle: "bold",
-                }}
-              >
-                <strong>2020/CT/000</strong>
-              </p>
-            </div>
-            <div
-              style={{
-                textAlign: "left",
-                marginLeft: "20px",
-                fontSize: "14px",
-              }}
-            >
-              <h4>
-                Name With Initials{" "}
-                <h4 style={{ display: "inline", margin: "auto" }}> : </h4> J.
-                Doe
-              </h4>
-              <h4>
-                Name Donated By Initials{" "}
-                <h4 style={{ display: "inline", margin: "auto" }}> : </h4> John
-                Doe
-              </h4>
-              <h4>
-                National Identity Crad No{" "}
-                <h4 style={{ display: "inline", margin: "auto" }}>: </h4>{" "}
-                123456789012
-              </h4>
-              <h4>
-                Date of Birth{" "}
-                <h4 style={{ display: "inline", margin: "auto" }}> : </h4>
-                01.01.2001
-              </h4>
-            </div>
-            <div
-              style={{
-                width: "163px",
-                height: "206px",
-                border: "2px solid #000",
-                marginLeft: "120px",
-                marginTop: "20px",
-                margin: "auto",
-              }}
-            >
-              <img
-                src={student_img}
-                alt="profile"
-                style={{ width: "163px", height: "206px" }}
-              />
-            </div>
-            <div
-              style={{
-                textAlign: "left",
-                marginLeft: "20px",
-                marginTop: "20px",
-              }}
-            >
-              <h4>
-                Signaturev Of the Student{" "}
-                <h4 style={{ display: "inline", marginLeft: "auto" }}> : </h4>
-                <div style={{ display: "inline" }}>
-                  <img
-                    src={holder_signature}
-                    alt="profile"
-                    style={{ width: "45.85px", height: "20.39px" }}
-                  />
-                </div>
-              </h4>
-            </div>
+          <div class="w-[85px] h-[20px] sm:w-[120px] sm:h-[40px] border border-black text-[10px] sm:text-[12px] ml-auto mr-[10px]">
+            <p class="text-center mt-[2px]  font-bold">
+              2020/CT/000
+            </p>
+          </div>
+          <div class="text-left  text-[9px] sm:text-[12px] ml-1 mt-5 sm:mr-[40px] sm:mt-10 space-y-1 sm:space-y-3">
+            <h4>
+              Name With Initials
+              <span class="inline mx-auto  ml-9 sm:ml-[43px]">:</span>
+              <span class="font-bold ml-3  sm:ml-2">J. Doe</span>
+            </h4>
+            <h4>
+              Name Donated By Initials
+              <span class="inline ml-[10px]">:</span>
+              <span class="font-bold ml-3 sm:ml-2">John Doe</span>
+            </h4>
+            <h4>
+              National Identity Card No
+              <span class="inline ml-2 ">:</span>
+              <span class="font-bold ml-2 sm:ml-2">123456789012</span>
+            </h4>
+            <h4>
+              Date of Birth
+              <span class="inline ml-[60px] sm:ml-[75px]">:</span>
+              <span class="font-bold  ml-3 sm:ml-2">01.01.2001</span>
+            </h4>
+          </div>
+
+          <div className="flex justify-center items-center mt-8 sm:mt-8">
+            <img
+              src={student_img}
+              alt="Student Image"
+              className="w-[50px] sm:w-[120px] h-auto"
+            />
+          </div>
+
+          <div class="flex items-center text-left text-[9px] sm:text-[12px] mr-7 mt-8 sm:mr-[70px] sm:mt-10">
+            Signature of the student<span class="ml-3 sm:ml-[15px]">:</span>
+            <img src={holder_signature} alt="signature" class="w-[25px] sm:w-[50px] h-auto ml-2" />
           </div>
         </div>
       </div>
-    </>
+
+
+    </div>
   );
 }
 

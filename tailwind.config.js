@@ -7,7 +7,12 @@ export default {
     "./src/pages/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customBlue: '#2320E8',
+      },
+      
+    },
   },
   plugins: [],
 };
