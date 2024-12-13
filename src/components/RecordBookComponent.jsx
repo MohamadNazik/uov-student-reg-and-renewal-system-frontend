@@ -7,10 +7,10 @@ function RecordBookComponent() {
   return (
     <div className="flex flex-col gap-5 xl:flex-row xl:gap-14">
       {/* Front view */}
-      <div className="w-[250px] sm:w-[500px] bg-[#E13923] h-[350px] sm:h-[650px] flex justify-center items-center overflow-hidden relative">
-        <div className="w-[190px] sm:w-[410px] bg-[#E13923] h-[290px] sm:h-[560px] border-2  border-customBlue flex flex-col justify-start items-center overflow-hidden relative">
-          <img src={uni_logo} alt="University Logo" className="w-[75px] sm:w-[120px] h-auto mt-4 sm:mt-8" />
-          <h3 className="text-customBlue text-[15px] sm:text-[32px] font-inter font-bold mt-5 sm:mt-10 leading-tight "
+      <div className="w-[200px] sm:w-[390px] bg-[#E13923] h-[300px] sm:h-[500px] flex justify-center items-center overflow-hidden relative">
+        <div className="w-[150px] sm:w-[300px] bg-[#E13923] h-[250px] sm:h-[450px] border-2  border-customBlue flex flex-col justify-start items-center overflow-hidden relative">
+          <img src={uni_logo} alt="University Logo" className="w-[50px] sm:w-[120px] h-auto mt-3 sm:mt-5" />
+          <h3 className="text-customBlue text-[12px] sm:text-[20px] font-inter font-bold mt-4 sm:mt-8 leading-tight "
             style={{
               textShadow: `
                1px 1px 0 white, 
@@ -24,7 +24,7 @@ function RecordBookComponent() {
                 
               `,
             }}>University of Vavuniya</h3>
-          <h3 className="text-customBlue text-[15px] sm:text-[32px]  font-inter font-bold leading-tight" style={{
+          <h3 className="text-customBlue text-[12px] sm:text-[20px]  font-inter font-bold leading-tight" style={{
             textShadow: `
                 1px 1px 0 white, 
                 -1px -1px 0 white, 
@@ -37,7 +37,7 @@ function RecordBookComponent() {
                 
               `,
           }}>Sri Lanka</h3>
-          <h3 className="text-customBlue text-[20px] sm:text-[38px] text-center  font-inter font-bold uppercase mt-6 sm:mt-8 leading-tight" style={{
+          <h3 className="text-customBlue text-[16px] sm:text-[28px] text-center  font-inter font-bold uppercase mt-6 sm:mt-8 leading-tight" style={{
             textShadow: `
                 1px 1px 0 white, 
                 -1px -1px 0 white, 
@@ -49,7 +49,7 @@ function RecordBookComponent() {
                 0 -1px 0 white
               `,
           }}>Student's Record Book</h3>
-          <h3 className="text-customBlue text-[10px] sm:text-[22px] text-center  font-inter font-bold uppercase mt-11 sm:mt-24 sm:pt-2 leading-tight " style={{
+          <h3 className="text-customBlue text-[8px] sm:text-[18px] text-center  font-inter font-bold uppercase mt-[55px] sm:mt-[80px] sm:pt-2 leading-tight " style={{
             textShadow: `
                 1px 1px 0 white, 
                 -1px -1px 0 white, 
@@ -66,51 +66,53 @@ function RecordBookComponent() {
 
 
       {/* Back view */}
-      <div className="w-[250px] sm:w-[500px]  bg-white h-[350px] sm:h-[650px] flex justify-center items-center overflow-hidden relative">
-        <div className="w-[190px] sm:w-[410px] bg-white h-[290px] sm:h-[560px] border-2  border-black   flex flex-col justify-start items-center overflow-hidden relative">
-          <div class="w-[100px] h-[25px] sm:w-[200px] sm:h-[40px] sm:text-[20px] border  border-black text-[12px] ml-auto mr-[20px] mt-2">
-            <p class="text-center mt-[5px] font-bold">
+      <div className="w-[200px] sm:w-[390px]  bg-white h-[300px] sm:h-[500px] flex justify-center items-center overflow-hidden relative">
+        <div className="w-[150px] sm:w-[300px] bg-white h-[250px] sm:h-[450px] border-2  border-black   flex flex-col justify-start items-center overflow-hidden relative">
+          <div class="w-[75px] h-[15px] sm:w-[120px] sm:h-[40px] sm:text-[12px] border  border-black text-[8px] ml-auto mr-[10px] mt-2">
+            <p class="text-center mt-[2px] font-bold">
               Registration No:
             </p>
           </div>
-          <div class="w-[100px] h-[25px] sm:w-[200px] sm:h-[40px] border border-black text-[12px] sm:text-[20px] ml-auto mr-[20px]">
-            <p class="text-center mt-[4px]  font-bold">
+          <div class="w-[75px] h-[15px] sm:w-[120px] sm:h-[40px] border border-black text-[8px] sm:text-[12px] ml-auto mr-[10px]">
+            <p class="text-center mt-[2px]  font-bold">
               2020/CT/000
             </p>
           </div>
-          <div class="text-left  text-[12px] sm:text-[20px] mr-5 mt-2 sm:ml-[3px] sm:mt-10 sm:space-y-2">
+          <div class="text-left  text-[9px] sm:text-[12px] ml-1 mt-2 sm:mr-[40px] sm:mt-10 sm:space-y-2">
             <h4>
               Name With Initials
-              <span class="inline mx-auto ml-12 sm:ml-[73px]">:</span>
-              <span class="font-bold sm:ml-[3px]">J. Doe</span>
+              <span class="inline mx-auto  ml-1 sm:ml-[43px]">:</span>
+              <span class="font-bold ml-1  sm:ml-2">J. Doe</span>
             </h4>
             <h4>
               Name Donated By Initials
-              <span class="inline mx-auto ml-3 sm:ml-[10px]">:</span>
-              <span class="font-bold sm:ml-[3px]">John Doe</span>
+              <span class="inline ml-1">:</span>
+              <span class="font-bold ml-1 sm:ml-2">John Doe</span>
             </h4>
             <h4>
               National Identity Card No
-              <span class="inline mx-auto  ml-3 sm:ml-[8px] ">:</span>
-              <span class="font-bold sm:ml-[3px]">123456789012</span>
+              <span class="inline ml-1">:</span>
+              <span class="font-bold ml-1 sm:ml-2">123456789012</span>
             </h4>
             <h4>
               Date of Birth
-              <span class="inline mx-auto  ml-[80px] sm:ml-[127px] ">:</span>
-              <span class="font-bold sm:ml-[3px]">01.01.2001</span>
+              <span class="inline ml-1 sm:ml-[75px]">:</span>
+              <span class="font-bold  ml-1 sm:ml-2">01.01.2001</span>
             </h4>
           </div>
 
-          <div className="flex justify-center items-center mt-1 sm:mt-8">
+          <div className="flex justify-center items-center mt-2 sm:mt-8">
             <img
               src={student_img}
               alt="Student Image"
               className="w-[50px] sm:w-[120px] h-auto"
             />
           </div>
-          <div class="text-left text-[12px] sm:text-[20px] mr-5 mt-2 sm:mrl-20 sm:mt-10">
-              <h4>Signature of the student:</h4>
-              <img src={holder_signature} alt="signature" class="w-[50px] sm:w-[50px] h-auto" />
+          <div class="text-left text-[9px] sm:text-[12px] mr-5 mt-2 sm:mr-[130px] sm:mt-10">
+              <h4>Signature of the student
+              <span class="inline ml-1 sm:ml-[15px]">:</span>
+              <img src={holder_signature} alt="signature" class="w-[25px] sm:w-[50px] h-auto" />
+              </h4>
           </div>
         </div>
       </div>
